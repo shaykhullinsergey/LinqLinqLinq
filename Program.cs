@@ -11,6 +11,7 @@ namespace LinqLinqLinq
     public string LastName { get; set; }
     public string Address { get; set; }
   }
+
   class Program
   {
     IEnumerable<Table> table = new List<Table>
